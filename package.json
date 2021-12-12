@@ -1,0 +1,32 @@
+{
+    "name": "webpack-bootstrap-5-with-purgecss-boilerplate",
+    "version": "1.0.0",
+    "description": "Webpack Setup with Bootstrap 5 & PurgeCSS",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack serve --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arslanakram/webpack-boostrap5-with-purgecss-boilerplate.git"
+    },
+    "author": "Arslan Akram <arslan@pixelative.co>",
+    "license": "ISC",
+    "homepage": "https://github.com/arslanakram/webpack-boostrap5-with-purgecss-boilerplate",
+    "devDependencies": {
+        "@popperjs/core": "^2.10.1",
+        "autoprefixer": "^10.3.4",
+        "bootstrap": "^5.1.1",
+        "css-loader": "^6.3.0",
+        "postcss-loader": "^6.1.1",
+        "dotenv-webpack": "^7.0.3",
+        "esbuild-loader": "^2.15.1",
+        "glob-all": "^3.2.1",
+        "mini-css-extract-plugin": "^2.3.0",
+        "purgecss-webpack-plugin": "^4.0.3",
+        "sass-loader": "^12.1.0",
+        "webpack": "^5.53.0",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.2.1"
+    }
+}
